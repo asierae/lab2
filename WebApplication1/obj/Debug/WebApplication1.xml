@@ -1,0 +1,396 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WebApplication1
+</name>
+</assembly>
+<members>
+<member name="F:WebApplication1.CambiarPassword.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.CambiarPassword.TextBox1">
+	<summary>
+Control TextBox1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.CambiarPassword.TextBox2">
+	<summary>
+Control TextBox2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.CambiarPassword.Button2">
+	<summary>
+Control Button2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.CambiarPassword.divCambiarPass">
+	<summary>
+Control divCambiarPass.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.CambiarPassword.TextBox3">
+	<summary>
+Control TextBox3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.CambiarPassword.RequiredFieldValidator6">
+	<summary>
+Control RequiredFieldValidator6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.CambiarPassword.RegularExpressionValidator4">
+	<summary>
+Control RegularExpressionValidator4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.CambiarPassword.TextBox4">
+	<summary>
+Control TextBox4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.CambiarPassword.CompareValidator1">
+	<summary>
+Control CompareValidator1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.CambiarPassword.Button1">
+	<summary>
+Control Button1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Confirmar.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Confirmar.Literal1">
+	<summary>
+Control Literal1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Confirmar.LinkButton1">
+	<summary>
+Control LinkButton1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Home.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.WebForm1.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.WebForm1.TextBox1">
+	<summary>
+Control TextBox1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.WebForm1.RequiredFieldValidator3">
+	<summary>
+Control RequiredFieldValidator3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.WebForm1.RegularExpressionValidator1">
+	<summary>
+Control RegularExpressionValidator1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.WebForm1.TextBox2">
+	<summary>
+Control TextBox2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.WebForm1.RequiredFieldValidator2">
+	<summary>
+Control RequiredFieldValidator2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.WebForm1.Literal1">
+	<summary>
+Control Literal1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.WebForm1.Button1">
+	<summary>
+Control Button1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.WebForm1.LinkButton1">
+	<summary>
+Control LinkButton1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.WebForm1.LinkButton2">
+	<summary>
+Control LinkButton2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.TextBox1">
+	<summary>
+Control TextBox1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.RequiredFieldValidator3">
+	<summary>
+Control RequiredFieldValidator3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.RegularExpressionValidator1">
+	<summary>
+Control RegularExpressionValidator1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.TextBox2">
+	<summary>
+Control TextBox2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.RequiredFieldValidator4">
+	<summary>
+Control RequiredFieldValidator4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.RegularExpressionValidator2">
+	<summary>
+Control RegularExpressionValidator2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.TextBox3">
+	<summary>
+Control TextBox3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.RequiredFieldValidator5">
+	<summary>
+Control RequiredFieldValidator5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.RegularExpressionValidator3">
+	<summary>
+Control RegularExpressionValidator3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.TextBox4">
+	<summary>
+Control TextBox4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.RequiredFieldValidator6">
+	<summary>
+Control RequiredFieldValidator6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.RegularExpressionValidator4">
+	<summary>
+Control RegularExpressionValidator4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.TextBox5">
+	<summary>
+Control TextBox5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.CompareValidator1">
+	<summary>
+Control CompareValidator1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.TextBox6">
+	<summary>
+Control TextBox6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.RequiredFieldValidator1">
+	<summary>
+Control RequiredFieldValidator1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.TextBox7">
+	<summary>
+Control TextBox7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.RequiredFieldValidator2">
+	<summary>
+Control RequiredFieldValidator2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.Button1">
+	<summary>
+Control Button1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="P:WebApplication1.My.MyWebExtension.Computer">
+	<summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member><member name="P:WebApplication1.My.MyWebExtension.User">
+	<summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member><member name="P:WebApplication1.My.MyWebExtension.Request">
+	<summary>
+ Devuelve un objeto Request.
+ </summary>
+</member><member name="P:WebApplication1.My.MyWebExtension.Response">
+	<summary>
+ Devuelve un objeto Response.
+ </summary>
+</member><member name="P:WebApplication1.My.MyWebExtension.Log">
+	<summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member><member name="T:WebApplication1.My.MyWebExtension">
+	<summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
