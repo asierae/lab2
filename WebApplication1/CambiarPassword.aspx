@@ -18,6 +18,7 @@
         <h5><strong>Pregunta Secreta:</strong><asp:TextBox ID="TextBox1" runat="server"  CssClass="form-control"   ForeColor="Black" Width="432px" BackColor="#CCCCCC" ReadOnly="True">¿Cual es tu película favorita?</asp:TextBox>
         </h5>
         <h5><strong>Respuesta:<asp:TextBox ID="TextBox2" runat="server"  CssClass="form-control"   ForeColor="Black" Width="432px"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="TextBox2" ErrorMessage="Introduce la respuesta aa tu pregunta" ForeColor="Red"></asp:RequiredFieldValidator>
             </strong></h5>
         <p>&nbsp;</p>
         <p>

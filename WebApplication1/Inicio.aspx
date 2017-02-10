@@ -31,9 +31,9 @@
     
         <br />
         <br />
-        <asp:LinkButton ID="LinkButton1" runat="server">Registrar</asp:LinkButton>
+        <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False">Registrar</asp:LinkButton>
 &nbsp;&nbsp;&nbsp;
-        <asp:LinkButton ID="LinkButton2" runat="server">Cambiar Password</asp:LinkButton>
+        <asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="False">Cambiar Password</asp:LinkButton>
        
         <br />
         <br />

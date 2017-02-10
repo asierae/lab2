@@ -170,6 +170,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\accesoBD\accesoBD.vbproj">
+      <Project>{bdd83e14-6b22-46bc-968c-db1c15cf4c9a}</Project>
+      <Name>accesoBD</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Email\Email.vbproj">
       <Project>{6b758c55-6e3c-4de6-a8fc-b81d6c6fcab2}</Project>
       <Name>Email</Name>
