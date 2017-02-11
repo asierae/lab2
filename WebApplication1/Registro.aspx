@@ -18,7 +18,7 @@
     
         <h1><strong>Registro</h1>
         </strong>
-    
+        <table><td>
         <h5><strong>Email:&nbsp;(*)</strong><asp:TextBox ID="TextBox1" runat="server" CssClass="form-control" Width="200px" ForeColor="Black"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TextBox1" ErrorMessage="Introduce un email" ForeColor="Red"></asp:RequiredFieldValidator>
             <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="Introduce un email válido" ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
@@ -51,7 +51,10 @@
         <br />
         <asp:Button ID="Button1" runat="server" Height="52px" CssClass="btn btn-success" Text="Registrar" Width="118px" />
         <br />
-    
+        </td><td>
+            <h3><asp:Literal ID="Literal1" runat="server"></asp:Literal></h3>
+             </td>
+            </table> 
     </div>
     </form>
 </body>

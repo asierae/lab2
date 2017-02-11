@@ -11,7 +11,7 @@
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If TextBox1.Text = "prueba@prueba.com" And TextBox2.Text = "prueba" Then
-            Response.Redirect("http://miazure.com/Home.aspx")
+            Response.Redirect("http://miazure.cuandoeste/Home.aspx")
         Else
             Literal1.Text = "<span style=""color: red;"">Credenciales Incorrectas </span>"
         End If

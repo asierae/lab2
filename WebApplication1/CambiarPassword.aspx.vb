@@ -18,8 +18,9 @@
         Return True
     End Function
 
-    Public Function cambiarPassword(ByVal newpass As String) As Boolean
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        ''Cambiar Password
+        Dim newpass = TextBox3.Text
 
-        Return True
-    End Function
+    End Sub
 End Class

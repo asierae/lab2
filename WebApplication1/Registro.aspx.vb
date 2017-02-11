@@ -29,11 +29,16 @@ Public Class Registro
         Dim url_activar As String
         If Page.IsValid Then
             conectar()
-            Dim key = RandomKey()
+            key = RandomKey()
             url_activar = host + "/Confirmar.aspx?mbr=" + TextBox1.Text + "&numconf=" + key.ToString
             emailer.enviarEmail(TextBox1.Text, "Email de Bienvenida", "Bienvenido! Activa tu cuenta desde la siguiente dirección:" + url_activar)
-            registrar()
+            If registrar() = "OK" Then
+                Literal1.Text = "Te has registrado con exito " & TextBox2.Text.Split().GetValue(0) & "! Comprueba tu correo para activar la cuenta"
+            Else
+                Literal1.Text = "Error al registrar,comprueba los datos"
+            End If
         End If
+
 
     End Sub
 
@@ -41,15 +46,17 @@ Public Class Registro
         Dim array = TextBox2.Text.Split()
         Dim apellidos = array.GetValue(1) & " " & array.GetValue(2)
         apellidos = "segundo"
-        Dim st = "insert into Usuarios (email,nombre,apellidos,pregunta,respuesta,dni,numconfir,confirmado,pass) values(" & TextBox1.Text & "," & array.GetValue(0) & "," & apellidos & "," & TextBox6.Text & "," & TextBox7.Text & "," & TextBox3.Text & "," & key & "," & False & "," & TextBox4.Text & ")"
+        Dim st = "insert into Usuarios (email,nombre,apellidos,pregunta,respuesta,dni,numconfir,confirmado,pass) values('" & TextBox1.Text & "','" & array.GetValue(0) & "','" & apellidos & "','" & TextBox6.Text & "','" & TextBox7.Text & "','" & TextBox3.Text & "'," & key & ",'" & False & "','" & TextBox4.Text & "')"
+
         Dim numregs As Integer
         comando = New SqlCommand(st, accesoBD.GestBD.conexion)
         Try
             numregs =comando.ExecuteNonQuery()
         Catch ex As Exception
-            MsgBox(ex.Message)
+            Return ex.Message
         End Try
-        MsgBox(numregs & " registro(s) insertado(s) en la BD ")
+        'Return (numregs & " registro(s) insertado(s) en la BD ")
+        Return "OK"
     End Function
 
 End Class
