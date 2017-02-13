@@ -17,6 +17,7 @@ Public Class GestBD
 
     Public Shared Function cerrarConexion() As Boolean
         conexion.Close()
+        Return True
     End Function
 
 

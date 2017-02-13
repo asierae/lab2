@@ -15,6 +15,18 @@
     <p>
         &nbsp;</p>
     <form id="form1" runat="server" style="margin-left: 40px">
+        <div ID="divEmail" runat="server" style="height: 192px"  >
+            <asp:Label ID="Label1" runat="server" Text="Email:" style="font-weight: 700"></asp:Label>
+            <asp:TextBox ID="TextBox5" CssClass="form-control" runat="server" Width="300px"></asp:TextBox>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator5" runat="server" ControlToValidate="TextBox5" ErrorMessage="Introduce un Email válido" ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+            <br />
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="TextBox5" ErrorMessage="Introduce un Email" ForeColor="Red"></asp:RequiredFieldValidator>
+            <br />
+            <h3><asp:Literal ID="Literal1" runat="server"></asp:Literal></h3>
+            <asp:Button ID="Button3" runat="server" CssClass="btn btn-success" Text="Solicitar Cambio" />
+            </div>
+
+        <div ID="divObtenerPregunta" runat="server" style="height: 192px"  >
         <h5><strong>Pregunta Secreta:</strong><asp:TextBox ID="TextBox1" runat="server"  CssClass="form-control"   ForeColor="Black" Width="432px" BackColor="#CCCCCC" ReadOnly="True">¿Cual es tu película favorita?</asp:TextBox>
         </h5>
         <h5><strong>Respuesta:<asp:TextBox ID="TextBox2" runat="server"  CssClass="form-control"   ForeColor="Black" Width="432px"></asp:TextBox>
@@ -24,7 +36,8 @@
         <p>
             <asp:Button ID="Button2" runat="server" CssClass="btn btn-success" OnClick="Button2_Click" Text="Responder" />
         </p>
-    <div>
+    </div> 
+        <div>
     
         <div ID="divCambiarPass" runat="server" style="height: 192px"  >
 
