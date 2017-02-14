@@ -68,13 +68,13 @@ Partial Public Class CambiarPassword
     Protected WithEvents RequiredFieldValidator8 As Global.System.Web.UI.WebControls.RequiredFieldValidator
 
     '''<summary>
-    '''Control Literal1.
+    '''Control Label2.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Literal1 As Global.System.Web.UI.WebControls.Literal
+    Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Control Button3.

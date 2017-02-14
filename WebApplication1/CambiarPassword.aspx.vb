@@ -12,10 +12,10 @@ Public Class CambiarPassword
 
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         If comprobarRespuesta(TextBox2.Text) Then
-            Literal1.Text = ""
+            Label2.Text = ""
             divCambiarPass.Visible = True
         Else
-            Literal1.Text = "Respuesta Incorrecta"
+            Label2.Text = "Respuesta Incorrecta"
         End If
     End Sub
 
@@ -27,7 +27,7 @@ Public Class CambiarPassword
         Try
             existe = comando.ExecuteScalar()
         Catch ex As Exception
-            Literal1.Text = (ex.Message)
+            Label2.Text = (ex.Message)
         End Try
         If existe > 0 Then
             Me.ViewState("username") = TextBox5.Text
@@ -48,12 +48,12 @@ Public Class CambiarPassword
             numregs = comando.ExecuteNonQuery()
 
             Catch ex As Exception
-                Literal1.Text = ex.Message
+            Label2.Text = ex.Message
         End Try
         If (numregs > 0) Then
-            Literal1.Text = "Has cambiado tu Contraseña con exito, apuntala bien!"
+            Label2.Text = "Has cambiado tu Contraseña con exito, apuntala bien!"
         Else
-            Literal1.Text = "Comprueba los datos introducidos"
+            Label2.Text = "Comprueba los datos introducidos"
         End If
 
         cerrarConexion()
@@ -71,13 +71,13 @@ Public Class CambiarPassword
         Try
             resp = comando.ExecuteReader()
         Catch ex As Exception
-            Literal1.Text = (ex.Message)
+            Label2.Text = (ex.Message)
         End Try
         If Not resp.Read() Then
-            Literal1.Text = "No estas registrado con este email"
+            Label2.Text = "No estas registrado con este email"
         Else
 
-            Literal1.Text = ""
+            Label2.Text = ""
             TextBox1.Text = resp.Item("pregunta")
             divObtenerPregunta.Visible = True
         End If
