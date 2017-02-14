@@ -3,8 +3,6 @@ Imports accesoBD.GestBD
 Public Class CambiarPassword
     Inherits System.Web.UI.Page
 
-    Private user As String
-
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         divCambiarPass.Visible = False
         divObtenerPregunta.Visible = False
@@ -32,7 +30,7 @@ Public Class CambiarPassword
             Literal1.Text = (ex.Message)
         End Try
         If existe > 0 Then
-            user = TextBox5.Text
+            Me.ViewState("username") = TextBox5.Text
             Return True
         Else
             Return False
@@ -42,19 +40,24 @@ Public Class CambiarPassword
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         ''Cambiar Password
         Dim newpass = TextBox3.Text
-        If Page.IsValid Then
-            Dim st = "UPDATE Usuarios set password='" & TextBox3.Text & "'WHERE email=" & user & " and respuesta='" & TextBox2.Text & "'"
-
+        Dim st = "UPDATE Usuarios set pass='" & TextBox3.Text & "' WHERE email='" & Me.ViewState("username") & "' and respuesta='" & TextBox2.Text & "'"
+        MsgBox(st)
             Dim numregs As Integer
             Dim comando = New SqlCommand(st, conexion)
             Try
-                numregs = comando.ExecuteNonQuery()
+            numregs = comando.ExecuteNonQuery()
+
             Catch ex As Exception
                 Literal1.Text = ex.Message
-            End Try
+        End Try
+        If (numregs > 0) Then
             Literal1.Text = "Has cambiado tu Contraseña con exito, apuntala bien!"
-            cerrarConexion()
+        Else
+            Literal1.Text = "Comprueba los datos introducidos"
         End If
+
+        cerrarConexion()
+
     End Sub
 
 
@@ -63,13 +66,14 @@ Public Class CambiarPassword
 
         Dim resp
         Dim st = "SELECT * FROM Usuarios WHERE email='" & TextBox5.Text & "' "
+
         Dim comando = New SqlCommand(st, conexion)
         Try
             resp = comando.ExecuteReader()
         Catch ex As Exception
             Literal1.Text = (ex.Message)
         End Try
-        If resp.Read() Then
+        If Not resp.Read() Then
             Literal1.Text = "No estas registrado con este email"
         Else
 
@@ -78,6 +82,6 @@ Public Class CambiarPassword
             divObtenerPregunta.Visible = True
         End If
 
-
+        resp.dispose()
     End Sub
 End Class
