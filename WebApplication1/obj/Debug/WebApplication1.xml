@@ -14,9 +14,9 @@ Control form1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:WebApplication1.Confirmar.Literal1">
+</member><member name="F:WebApplication1.Confirmar.Label1">
 	<summary>
-Control Literal1.
+Control Label1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -33,6 +33,22 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:WebApplication1.Home.form1">
 	<summary>
 Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Home.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Home.Button1">
+	<summary>
+Control Button1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -89,6 +105,14 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:WebApplication1.WebForm1.Literal1">
 	<summary>
 Control Literal1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.WebForm1.Label1">
+	<summary>
+Control Label1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -281,6 +305,14 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:WebApplication1.Registro.form1">
 	<summary>
 Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.Label1">
+	<summary>
+Control Label1.
 </summary>
 	<remarks>
 Campo generado automáticamente.

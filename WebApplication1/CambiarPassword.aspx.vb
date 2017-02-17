@@ -41,7 +41,7 @@ Public Class CambiarPassword
         ''Cambiar Password
         Dim newpass = TextBox3.Text
         Dim st = "UPDATE Usuarios set pass='" & TextBox3.Text & "' WHERE email='" & Me.ViewState("username") & "' and respuesta='" & TextBox2.Text & "'"
-        MsgBox(st)
+
             Dim numregs As Integer
             Dim comando = New SqlCommand(st, conexion)
             Try
