@@ -84,4 +84,9 @@ Public Class CambiarPassword
 
         resp.dispose()
     End Sub
+
+    Protected Sub LinkButton1_Click(sender As Object, e As EventArgs) Handles LinkButton1.Click
+        Response.Redirect("/Inicio.aspx")
+
+    End Sub
 End Class

@@ -5,14 +5,18 @@ Public Class WebForm1
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+
         If Not IsNothing(Request.Params("msj")) Then
             Label1.Text = Request.Params("msj")
         End If
+        If Page.IsPostBack Then
+
+        End If
     End Sub
 
-    Protected Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
 
-    End Sub
+
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
@@ -26,9 +30,7 @@ Public Class WebForm1
             Label1.Text = (ex.Message)
         End Try
         If existe > 0 Then
-            ''ViewState("username") = TextBox1.Text
             Session("username") = TextBox1.Text
-            ''ViewState("logged") = True
             Session("logged") = True
             Response.Redirect("/Home.aspx")
         Else

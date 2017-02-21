@@ -53,6 +53,8 @@
         <br />
         <br />
         <asp:Button ID="Button1" runat="server" Height="52px" CssClass="btn btn-success" Text="Registrar" Width="118px" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False">Volver a inicio</asp:LinkButton>
         <br />
         </td><td>
             <h3><asp:Literal ID="Literal1" runat="server"></asp:Literal></h3>

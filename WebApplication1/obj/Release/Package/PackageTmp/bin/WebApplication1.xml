@@ -6,15 +6,7 @@ WebApplication1
 </name>
 </assembly>
 <members>
-<member name="F:WebApplication1.index.form1">
-	<summary>
-Control form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:WebApplication1.Confirmar.form1">
+<member name="F:WebApplication1.Confirmar.form1">
 	<summary>
 Control form1.
 </summary>
@@ -214,6 +206,14 @@ Control Button3.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:WebApplication1.CambiarPassword.LinkButton1">
+	<summary>
+Control LinkButton1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:WebApplication1.CambiarPassword.divObtenerPregunta">
 	<summary>
 Control divObtenerPregunta.
@@ -294,9 +294,17 @@ Control TextBox4.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:WebApplication1.CambiarPassword.CompareValidator1">
+</member><member name="F:WebApplication1.CambiarPassword.RequiredFieldValidator9">
 	<summary>
-Control CompareValidator1.
+Control RequiredFieldValidator9.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.CambiarPassword.CompareValidator2">
+	<summary>
+Control CompareValidator2.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -473,6 +481,14 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:WebApplication1.Registro.Button1">
 	<summary>
 Control Button1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.LinkButton1">
+	<summary>
+Control LinkButton1.
 </summary>
 	<remarks>
 Campo generado automáticamente.

@@ -294,6 +294,14 @@ Control CompareValidator1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:WebApplication1.CambiarPassword.CompareValidator2">
+	<summary>
+Control CompareValidator2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:WebApplication1.CambiarPassword.Button1">
 	<summary>
 Control Button1.

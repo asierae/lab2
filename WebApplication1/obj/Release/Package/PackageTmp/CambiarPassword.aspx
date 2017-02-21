@@ -26,9 +26,11 @@
                 <asp:Label ID="Label2" runat="server"></asp:Label>
             </h3>
             <asp:Button ID="Button3" runat="server" CssClass="btn btn-success" Text="Solicitar Cambio" />
+            &nbsp;&nbsp;&nbsp;
+            <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False">Volver a Inicio</asp:LinkButton>
             </div>
 
-        <div ID="divObtenerPregunta" runat="server" style="height: 192px"  >
+        <div ID="divObtenerPregunta" runat="server" style="height: 192px">
         <h5><strong>Pregunta Secreta:</strong><asp:TextBox ID="TextBox1" runat="server"  CssClass="form-control"   ForeColor="Black" Width="432px" BackColor="#CCCCCC" ReadOnly="True">¿Cual es tu película favorita?</asp:TextBox>
         </h5>
         <h5><strong>Respuesta:<asp:TextBox ID="TextBox2" runat="server"  CssClass="form-control"   ForeColor="Black" Width="432px"></asp:TextBox>
@@ -39,10 +41,9 @@
             <asp:Button ID="Button2" runat="server" CssClass="btn btn-success" OnClick="Button2_Click" Text="Responder" />
         </p>
     </div> 
-        <div>
     
         <div ID="divCambiarPass" runat="server" style="height: 192px"  >
-
+            
             <strong>Nuevos Password:</strong><asp:TextBox ID="TextBox3" runat="server"  CssClass="form-control" Width="200px"  ForeColor="Black" TextMode="Password"></asp:TextBox>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="TextBox3" ErrorMessage="Introduce un password" ForeColor="Red"></asp:RequiredFieldValidator>
             <br />
@@ -50,12 +51,13 @@
             <strong>
             <br />
             Repite Password:</strong><asp:TextBox ID="TextBox4" runat="server"  CssClass="form-control" Width="200px"  ForeColor="Black" TextMode="Password"></asp:TextBox>
-            <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TextBox3" ControlToValidate="TextBox4" ErrorMessage="El Password debe ser el mismo" ForeColor="Red"></asp:CompareValidator>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="TextBox4" ErrorMessage="Introduce un Password" ForeColor="Red"></asp:RequiredFieldValidator>
+            <br />
+            <asp:CompareValidator ID="CompareValidator2" runat="server" ControlToCompare="TextBox3" ControlToValidate="TextBox4" ErrorMessage="El password debe ser igual" ForeColor="Red"></asp:CompareValidator>
             <br />
             <asp:Button ID="Button1" runat="server" CssClass="btn btn-warning" Text="Cambiar Password" Width="166px" Height="40px" />
         </div>
     
-    </div>
     </form>
 </body>
 </html>
