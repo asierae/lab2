@@ -23,6 +23,15 @@ Partial Public Class WebForm1
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
+    '''Control LinkButton2.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents LinkButton2 As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
     '''Control TextBox1.
     '''</summary>
     '''<remarks>
@@ -32,13 +41,13 @@ Partial Public Class WebForm1
     Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control RequiredFieldValidator3.
+    '''Control RequiredFieldValidator2.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents RequiredFieldValidator3 As Global.System.Web.UI.WebControls.RequiredFieldValidator
+    Protected WithEvents RequiredFieldValidator2 As Global.System.Web.UI.WebControls.RequiredFieldValidator
 
     '''<summary>
     '''Control RegularExpressionValidator1.
@@ -59,13 +68,13 @@ Partial Public Class WebForm1
     Protected WithEvents TextBox2 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control RequiredFieldValidator2.
+    '''Control RequiredFieldValidator3.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents RequiredFieldValidator2 As Global.System.Web.UI.WebControls.RequiredFieldValidator
+    Protected WithEvents RequiredFieldValidator3 As Global.System.Web.UI.WebControls.RequiredFieldValidator
 
     '''<summary>
     '''Control Literal1.
@@ -102,13 +111,4 @@ Partial Public Class WebForm1
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents LinkButton1 As Global.System.Web.UI.WebControls.LinkButton
-
-    '''<summary>
-    '''Control LinkButton2.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents LinkButton2 As Global.System.Web.UI.WebControls.LinkButton
 End Class

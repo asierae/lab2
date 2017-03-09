@@ -12,6 +12,6 @@
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Session.Abandon()
-        Response.Redirect("/Inicio.aspx?msj=Bye Bye!")
+        Response.Redirect("/Inicio.aspx?msj= Vuelve Pronto, te estaremos esperando :)")
     End Sub
 End Class

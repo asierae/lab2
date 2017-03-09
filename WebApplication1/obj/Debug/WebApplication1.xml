@@ -6,7 +6,100 @@ WebApplication1
 </name>
 </assembly>
 <members>
-<member name="F:WebApplication1.Confirmar.form1">
+<member name="F:WebApplication1.TareasProfesor1.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.TareasProfesor1.DropDownList1">
+	<summary>
+Control DropDownList1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.TareasProfesor1.SqlDataSource1">
+	<summary>
+Control SqlDataSource1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="P:WebApplication1.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:WebApplication1.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="T:WebApplication1.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="F:WebApplication1.Menu.head">
+	<summary>
+Control head.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Menu.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.TareasAlumno.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.TareasAlumno.LinkLogout">
+	<summary>
+Control LinkLogout.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.TareasAlumno.DropDownList1">
+	<summary>
+Control DropDownList1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.TareasAlumno.LabelErrors">
+	<summary>
+Control LabelErrors.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.TareasAlumno.GridView1">
+	<summary>
+Control GridView1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Confirmar.form1">
 	<summary>
 Control form1.
 </summary>
@@ -25,6 +118,30 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:WebApplication1.Confirmar.LinkButton1">
 	<summary>
 Control LinkButton1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Alumno.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Alumno.LinkButton1">
+	<summary>
+Control LinkButton1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Alumno.Label1">
+	<summary>
+Control Label1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -62,6 +179,14 @@ Control form1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:WebApplication1.WebForm1.LinkButton2">
+	<summary>
+Control LinkButton2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:WebApplication1.WebForm1.TextBox1">
 	<summary>
 Control TextBox1.
@@ -70,9 +195,9 @@ Control TextBox1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:WebApplication1.WebForm1.RequiredFieldValidator3">
+</member><member name="F:WebApplication1.WebForm1.RequiredFieldValidator2">
 	<summary>
-Control RequiredFieldValidator3.
+Control RequiredFieldValidator2.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -94,9 +219,9 @@ Control TextBox2.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:WebApplication1.WebForm1.RequiredFieldValidator2">
+</member><member name="F:WebApplication1.WebForm1.RequiredFieldValidator3">
 	<summary>
-Control RequiredFieldValidator2.
+Control RequiredFieldValidator3.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -129,14 +254,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:WebApplication1.WebForm1.LinkButton1">
 	<summary>
 Control LinkButton1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:WebApplication1.WebForm1.LinkButton2">
-	<summary>
-Control LinkButton2.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -201,6 +318,14 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:WebApplication1.CambiarPassword.Button3">
 	<summary>
 Control Button3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.CambiarPassword.LinkButton1">
+	<summary>
+Control LinkButton1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -286,9 +411,9 @@ Control TextBox4.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:WebApplication1.CambiarPassword.CompareValidator1">
+</member><member name="F:WebApplication1.CambiarPassword.RequiredFieldValidator9">
 	<summary>
-Control CompareValidator1.
+Control RequiredFieldValidator9.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -305,6 +430,142 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:WebApplication1.CambiarPassword.Button1">
 	<summary>
 Control Button1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.InstanciarTarea.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.InstanciarTarea.LinkLogout">
+	<summary>
+Control LinkLogout.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.InstanciarTarea.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.InstanciarTarea.TextBox1">
+	<summary>
+Control TextBox1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.InstanciarTarea.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.InstanciarTarea.TextBox2">
+	<summary>
+Control TextBox2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.InstanciarTarea.Label3">
+	<summary>
+Control Label3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.InstanciarTarea.TextBox3">
+	<summary>
+Control TextBox3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.InstanciarTarea.Label4">
+	<summary>
+Control Label4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.InstanciarTarea.TextBox4">
+	<summary>
+Control TextBox4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.InstanciarTarea.RequiredFieldValidator1">
+	<summary>
+Control RequiredFieldValidator1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.InstanciarTarea.Button1">
+	<summary>
+Control Button1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.InstanciarTarea.Label5">
+	<summary>
+Control Label5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.InstanciarTarea.GridView1">
+	<summary>
+Control GridView1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.InstanciarTarea.LinkButton1">
+	<summary>
+Control LinkButton1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.TareasProfesor.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.TareasProfesor.LinkButton1">
+	<summary>
+Control LinkButton1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -473,6 +734,14 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:WebApplication1.Registro.Button1">
 	<summary>
 Control Button1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebApplication1.Registro.LinkButton1">
+	<summary>
+Control LinkButton1.
 </summary>
 	<remarks>
 Campo generado automáticamente.

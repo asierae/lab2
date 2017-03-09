@@ -4,9 +4,11 @@ Public Class CambiarPassword
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
         divCambiarPass.Visible = False
         divObtenerPregunta.Visible = False
-        ''Buscar pregunta para el email recibido y mostrarla en textbox1
+
+
         conectar()
     End Sub
 
@@ -31,6 +33,7 @@ Public Class CambiarPassword
         End Try
         If existe > 0 Then
             Me.ViewState("username") = TextBox5.Text
+            MsgBox(Me.ViewState("username"))
             Return True
         Else
             Return False
@@ -87,6 +90,7 @@ Public Class CambiarPassword
 
     Protected Sub LinkButton1_Click(sender As Object, e As EventArgs) Handles LinkButton1.Click
         Response.Redirect("/Inicio.aspx")
+
 
     End Sub
 End Class

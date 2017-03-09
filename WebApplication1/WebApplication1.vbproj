@@ -13,13 +13,14 @@
     <OutputType>Library</OutputType>
     <RootNamespace>WebApplication1</RootNamespace>
     <AssemblyName>WebApplication1</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MyType>Custom</MyType>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -29,6 +30,7 @@
     <OutputPath>bin\</OutputPath>
     <DocumentationFile>WebApplication1.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -38,15 +40,14 @@
     <OutputPath>bin\</OutputPath>
     <DocumentationFile>WebApplication1.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -56,6 +57,7 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -81,14 +83,26 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Alumno.aspx" />
     <Content Include="CambiarPassword.aspx" />
     <Content Include="Confirmar.aspx" />
     <Content Include="Home.aspx" />
+    <Content Include="InstanciarTarea.aspx" />
     <Content Include="Registro.aspx" />
+    <Content Include="Profesor.aspx" />
+    <Content Include="TareasAlumno.aspx" />
+    <Content Include="TareasProfesor.aspx" />
     <Content Include="Web.config" />
     <Content Include="Inicio.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alumno.aspx.designer.vb">
+      <DependentUpon>Alumno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Alumno.aspx.vb">
+      <DependentUpon>Alumno.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="CambiarPassword.aspx.designer.vb">
       <DependentUpon>CambiarPassword.aspx</DependentUpon>
     </Compile>
@@ -109,6 +123,20 @@
     <Compile Include="Home.aspx.vb">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="InstanciarTarea.aspx.designer.vb">
+      <DependentUpon>InstanciarTarea.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InstanciarTarea.aspx.vb">
+      <DependentUpon>InstanciarTarea.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Menu.Master.designer.vb">
+      <DependentUpon>Menu.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.Master.vb">
+      <DependentUpon>Menu.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -143,6 +171,27 @@
       <DependentUpon>Registro.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Profesor.aspx.designer.vb">
+      <DependentUpon>Profesor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor.aspx.vb">
+      <DependentUpon>Profesor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="TareasAlumno.aspx.designer.vb">
+      <DependentUpon>TareasAlumno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TareasAlumno.aspx.vb">
+      <DependentUpon>TareasAlumno.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="TareasProfesor.aspx.designer.vb">
+      <DependentUpon>TareasProfesor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TareasProfesor.aspx.vb">
+      <DependentUpon>TareasProfesor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -153,6 +202,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Menu.Master" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

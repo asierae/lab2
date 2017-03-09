@@ -21,18 +21,25 @@ Public Class WebForm1
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
         conectar()
-        Dim existe As Integer
-        Dim st = "SELECT count(*) FROM Usuarios WHERE email='" & TextBox1.Text & "' and pass='" & TextBox2.Text & "'"
+        Dim existe As SqlDataReader
+        Dim st = "SELECT * FROM Usuarios WHERE email='" & TextBox1.Text & "' and pass='" & TextBox2.Text & "'"
         Dim comando = New SqlCommand(st, conexion)
         Try
-            existe = comando.ExecuteScalar()
+            existe = comando.ExecuteReader()
         Catch ex As Exception
             Label1.Text = (ex.Message)
         End Try
-        If existe > 0 Then
+        If existe.Read() Then
             Session("username") = TextBox1.Text
             Session("logged") = True
-            Response.Redirect("/Home.aspx")
+            Session("role") = existe.Item("tipo")
+            cerrarConexion()
+            If Session("role") = "A" Then
+                Response.Redirect("/Alumno.aspx")
+            Else
+                Response.Redirect("/Profesor.aspx")
+            End If
+
         Else
             Literal1.Text = "<span style=""color: red;"">Credenciales Incorrectas </span>"
         End If

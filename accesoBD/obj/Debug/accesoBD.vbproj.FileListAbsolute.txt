@@ -6,3 +6,4 @@ C:\Users\Asierae\Documents\Visual Studio 2013\Projects\WebApplication1\accesoBD\
 C:\Users\Asierae\Documents\Visual Studio 2013\Projects\WebApplication1\accesoBD\obj\Debug\accesoBD.dll
 C:\Users\Asierae\Documents\Visual Studio 2013\Projects\WebApplication1\accesoBD\obj\Debug\accesoBD.xml
 C:\Users\Asierae\Documents\Visual Studio 2013\Projects\WebApplication1\accesoBD\obj\Debug\accesoBD.pdb
+C:\Users\Asierae\Documents\Visual Studio 2013\Projects\WebApplication1\accesoBD\obj\Debug\accesoBD.vbprojResolveAssemblyReference.cache
