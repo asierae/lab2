@@ -53,10 +53,17 @@
             <br />
         <asp:Label ID="LabelErrors" runat="server"></asp:Label>
   <br />
-        <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" AllowSorting="True" OnSorting="GridView1_Sorting" OnRowCommand="GridView1_Rowcommand" GridLines="None" Height="180px" Width="658px" >
+            </div>
+        <asp:GridView ID="GridView1" runat="server" AllowSorting="True" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None" Height="146px" Width="576px">
             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
             <Columns>
-                <asp:ButtonField ButtonType="Button" Text="Instanciar" CommandName="instanciar"></asp:ButtonField>
+                <asp:CommandField SelectText="Instanciar" ShowSelectButton="True" ButtonType="Button" />
+                <asp:BoundField DataField="Codigo" HeaderText="Codigo" SortExpression="Codigo" />
+                <asp:BoundField DataField="Descripcion" HeaderText="Descripcion" SortExpression="Descripcion" />
+                <asp:BoundField DataField="CodAsig" HeaderText="CodAsig" SortExpression="CodAsig" />
+                <asp:BoundField DataField="HEstimadas" HeaderText="HEstimadas" SortExpression="HEstimadas" />
+                <asp:BoundField DataField="Explotacion" HeaderText="Explotacion" SortExpression="Explotacion" />
+                <asp:BoundField DataField="TipoTarea" HeaderText="TipoTarea" SortExpression="TipoTarea" />
             </Columns>
             <EditRowStyle BackColor="#999999" />
             <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
@@ -69,7 +76,6 @@
             <SortedDescendingCellStyle BackColor="#FFFDF8" />
             <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
         </asp:GridView>
-            </div>
     </form>
 
 </body>

@@ -58,7 +58,7 @@ Public Class TareasAlumno
                 LabelErrors.Text = "No Tienes tareas de esta Asignatura"
             End If
             cerrarConexion()
-            ViewState("direction") = "ASC" '' para el sort
+
         Else
 
             tbTareas = Session("ds").Tables("TareasGenericas")
@@ -73,8 +73,10 @@ Public Class TareasAlumno
         Select tarea
         If query.Count > 0 Then
             LabelErrors.Text = ""
-            tbTareas = query.CopyToDataTable() ''Solo con Ienumerable(of DataRow)
-            GridView1.DataSource = tbTareas
+            tbTareasAsig = New DataTable()
+            tbTareasAsig = query.CopyToDataTable() ''Solo con Ienumerable(of DataRow)
+            Session("tbtemp") = tbTareasAsig.AsDataView
+            GridView1.DataSource = tbTareasAsig
             GridView1.DataBind()
         Else
             GridView1.DataSource = Nothing
@@ -101,30 +103,18 @@ Public Class TareasAlumno
     End Sub
 
     Protected Sub GridView1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles GridView1.SelectedIndexChanged
-        MsgBox("?")
-    End Sub
-    Protected Sub GridView1_Rowcommand(sender As Object, e As GridViewCommandEventArgs) Handles GridView1.RowCommand
-
-        Dim row As GridViewRow = sender.Rows(e.CommandArgument) ''commandArgument devuelve el num de fila
-        LabelErrors.Text = row.Cells(1).Text
-        Response.Redirect("/InstanciarTarea.aspx?cod=" & row.Cells(1).Text & "&h=" & row.Cells(4).Text & "")
+        ' Dim row As GridViewRow = sender.Rows(e.CommandArgument) ''commandArgument devuelve el num de fila
+        Dim x = GridView1.SelectedIndex + 1
+        'LabelErrors.Text = tbTareas.Rows(x).Item(4)
+        Response.Redirect("/InstanciarTarea.aspx?cod=" & tbTareas.Rows(x).Item(0) & "&h=" & tbTareas.Rows(x).Item(3) & "")
 
     End Sub
+  
 
     Protected Sub GridView1_Sorting(sender As Object, e As GridViewSortEventArgs) Handles GridView1.Sorting
 
-        e.SortDirection = "DESC"
-        Dim vista = tbTareas.AsDataView()
-        vista.Sort = e.SortExpression & e.SortDirection    ''nombre de la columna y direction
-
-        'Dim x = e.SortDirection ''ASC o DESC
-        'MsgBox(e.SortExpression)
-        'query = From tarea In tbTareas.AsEnumerable()
-        'Where tarea("codAsig") = DropDownList1.SelectedValue
-        'Order By e.SortExpression Ascending
-        'Select tarea
-        'tbTareas = query.CopyToDataTable() ''Solo con Ienumerable(of DataRow)
-
+        Dim vista = Session("tbtemp")
+        vista.Sort = e.SortExpression    ''nombre de la columna y direction
 
         GridView1.DataSource = vista.ToTable 'tbTareas
         GridView1.DataBind()

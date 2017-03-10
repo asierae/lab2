@@ -49,7 +49,7 @@ Public Class InstanciarTarea
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
-        ''tbTareas.Columns("CodTarea").Unique = True ''inserta en la tabla solo una vez cada tarea gracias
+        tbTareas.Columns("CodTarea").Unique = True ''inserta en la tabla solo una vez cada tarea gracias
 
         Try
             Dim tmp = tbTareas.NewRow()
